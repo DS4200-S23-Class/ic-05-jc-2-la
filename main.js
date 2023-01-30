@@ -8,8 +8,9 @@ function buttonClicked() {
 
 	let buttonDiv = document.getElementById("button-div");
 
+	currCount = currCount + 1;
 
-	count.innerHTML = currCount + 1;
+	count.innerHTML = currCount;
 }
 
 
